@@ -602,6 +602,12 @@
 
       var el = this;
       ensureAssets().then(function () {
+        // base.css clips <html> horizontally. Wix gives <body> overflow-y:
+        // scroll, and with <html> no longer visible that stops propagating to
+        // the viewport, so <body> becomes its own scroller: window.scrollY
+        // stays 0 and the nav state, parallax and strips never see a scroll.
+        // Wix's body already hides horizontal overflow, so nothing is lost.
+        document.documentElement.style.overflowX = 'visible';
         el.innerHTML = MARKUP;
 
         // The behaviour script ran against the empty Wix shell long before
