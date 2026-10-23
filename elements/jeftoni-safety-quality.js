@@ -568,6 +568,20 @@
         // stays 0 and the nav state, parallax and strips never see a scroll.
         // Wix's body already hides horizontal overflow, so nothing is lost.
         document.documentElement.style.overflowX = 'visible';
+
+        // Wix stores the height this element had in the editor as a fixed
+        // height on its wrapper and a min-height on the element, so any wider
+        // viewport leaves empty page under the footer. Size both to the
+        // markup instead, drop the 1px/10px margin Wix's layout adds, and
+        // paint the page colour so Wix's page background never shows through.
+        el.style.display = 'block';
+        el.style.height = 'auto';
+        el.style.minHeight = '0';
+        el.style.backgroundColor = 'var(--bg)';
+        if (el.parentElement) {
+          el.parentElement.style.height = 'auto';
+          el.parentElement.style.margin = '0';
+        }
         el.innerHTML = MARKUP;
 
         // The behaviour script ran against the empty Wix shell long before
