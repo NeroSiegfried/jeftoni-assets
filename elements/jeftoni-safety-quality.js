@@ -561,6 +561,11 @@
       if (this.dataset.rendered === 'true') return;
       this.dataset.rendered = 'true';
 
+      if (window.self === window.top && location.pathname.replace(/\/+$/, '') !== "/safety-quality") {
+        location.replace('/404' + location.search);
+        return;
+      }
+
       var el = this;
       ensureAssets().then(function () {
         // base.css clips <html> horizontally. Wix gives <body> overflow-y:
