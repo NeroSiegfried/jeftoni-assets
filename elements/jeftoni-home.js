@@ -38,18 +38,18 @@
     </a>
     <ul class="nav__links">
       
-      <li class="nav__item"><a class="nav__link" href="/services/" >Services</a></li>
+      <li class="nav__item"><a class="nav__link" href="/services" >Services</a></li>
 
-      <li class="nav__item"><a class="nav__link" href="/projects/" >Projects</a></li>
+      <li class="nav__item"><a class="nav__link" href="/projects" >Projects</a></li>
 
-      <li class="nav__item"><a class="nav__link" href="/equipment/" >Equipment</a></li>
+      <li class="nav__item"><a class="nav__link" href="/equipment" >Equipment</a></li>
 
-      <li class="nav__item"><a class="nav__link" href="/about/" >About</a></li>
+      <li class="nav__item"><a class="nav__link" href="/about" >About</a></li>
 
-      <li class="nav__item"><a class="nav__link" href="/contact/" >Contact</a></li>
+      <li class="nav__item"><a class="nav__link" href="/contact" >Contact</a></li>
     </ul>
     <div class="nav__end">
-      <a class="nav__cta" href="/contact/">Enquire <span class="btn__arrow"><span class="arw arw--right" aria-hidden="true">→</span></span></a>
+      <a class="nav__cta" href="/contact">Enquire <span class="btn__arrow"><span class="arw arw--right" aria-hidden="true">→</span></span></a>
       <button class="nav__toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="nav-panel">
         <span>Menu</span>
         <span class="nav__toggle-mark" aria-hidden="true">+</span>
@@ -64,7 +64,7 @@
       
           <li class="nav-tree__group" data-branch>
             <div class="nav-tree__head">
-              <a class="nav-tree__route" href="/services/"  data-preview="/services/">
+              <a class="nav-tree__route" href="/services"  data-preview="/services/">
                 <span class="nav-tree__label">Services</span>
               </a>
               
@@ -84,37 +84,37 @@
             <div class="nav-tree__reveal" id="nav-sub-0">
               <ul class="nav-tree__children">
                 
-                <li><a class="nav-tree__child" href="/services/"  data-preview="/services/">
+                <li><a class="nav-tree__child" href="/services"  data-preview="/services/">
                   <span class="nav-tree__label">All services</span>
                   <span class="nav-tree__marks"><span class="arw arw--right" aria-hidden="true">→</span></span>
                 </a></li>
 
-                <li><a class="nav-tree__child" href="/services/conductor-piling/"  data-preview="/services/conductor-piling/">
+                <li><a class="nav-tree__child" href="/services/conductor-piling"  data-preview="/services/conductor-piling/">
                   <span class="nav-tree__label">Conductor piling</span>
                   <span class="nav-tree__marks"><span class="arw arw--right" aria-hidden="true">→</span></span>
                 </a></li>
 
-                <li><a class="nav-tree__child" href="/services/piling-systems/"  data-preview="/services/piling-systems/">
+                <li><a class="nav-tree__child" href="/services/piling-systems"  data-preview="/services/piling-systems/">
                   <span class="nav-tree__label">Piling systems</span>
                   <span class="nav-tree__marks"><span class="arw arw--right" aria-hidden="true">→</span></span>
                 </a></li>
 
-                <li><a class="nav-tree__child" href="/services/jetty-construction/"  data-preview="/services/jetty-construction/">
+                <li><a class="nav-tree__child" href="/services/jetty-construction"  data-preview="/services/jetty-construction/">
                   <span class="nav-tree__label">Jetty construction</span>
                   <span class="nav-tree__marks"><span class="arw arw--right" aria-hidden="true">→</span></span>
                 </a></li>
 
-                <li><a class="nav-tree__child" href="/services/bridge-construction/"  data-preview="/services/bridge-construction/">
+                <li><a class="nav-tree__child" href="/services/bridge-construction"  data-preview="/services/bridge-construction/">
                   <span class="nav-tree__label">Bridge construction</span>
                   <span class="nav-tree__marks"><span class="arw arw--right" aria-hidden="true">→</span></span>
                 </a></li>
 
-                <li><a class="nav-tree__child" href="/services/geotechnical-investigation/"  data-preview="/services/geotechnical-investigation/">
+                <li><a class="nav-tree__child" href="/services/geotechnical-investigation"  data-preview="/services/geotechnical-investigation/">
                   <span class="nav-tree__label">Geotechnical investigation</span>
                   <span class="nav-tree__marks"><span class="arw arw--right" aria-hidden="true">→</span></span>
                 </a></li>
 
-                <li><a class="nav-tree__child" href="/services/steel-fabrication/"  data-preview="/services/steel-fabrication/">
+                <li><a class="nav-tree__child" href="/services/steel-fabrication"  data-preview="/services/steel-fabrication/">
                   <span class="nav-tree__label">Steel fabrication</span>
                   <span class="nav-tree__marks"><span class="arw arw--right" aria-hidden="true">→</span></span>
                 </a></li>
@@ -124,7 +124,7 @@
 
           <li class="nav-tree__group" data-branch>
             <div class="nav-tree__head">
-              <a class="nav-tree__route" href="/projects/"  data-preview="/projects/">
+              <a class="nav-tree__route" href="/projects"  data-preview="/projects/">
                 <span class="nav-tree__label">Projects</span>
               </a>
               
@@ -144,17 +144,17 @@
             <div class="nav-tree__reveal" id="nav-sub-1">
               <ul class="nav-tree__children">
                 
-                <li><a class="nav-tree__child" href="/projects/"  data-preview="/projects/">
+                <li><a class="nav-tree__child" href="/projects"  data-preview="/projects/">
                   <span class="nav-tree__label">The register</span>
                   <span class="nav-tree__marks"><span class="arw arw--right" aria-hidden="true">→</span></span>
                 </a></li>
 
-                <li><a class="nav-tree__child" href="/clients/"  data-preview="/clients/">
+                <li><a class="nav-tree__child" href="/clients"  data-preview="/clients/">
                   <span class="nav-tree__label">Clients</span>
                   <span class="nav-tree__marks"><span class="arw arw--right" aria-hidden="true">→</span></span>
                 </a></li>
 
-                <li><a class="nav-tree__child" href="/gallery/"  data-preview="/gallery/">
+                <li><a class="nav-tree__child" href="/gallery"  data-preview="/gallery/">
                   <span class="nav-tree__label">Gallery</span>
                   <span class="nav-tree__marks"><span class="arw arw--right" aria-hidden="true">→</span></span>
                 </a></li>
@@ -163,7 +163,7 @@
           </li>
 
           <li class="nav-tree__group">
-            <a class="nav-tree__route" href="/equipment/"  data-preview="/equipment/">
+            <a class="nav-tree__route" href="/equipment"  data-preview="/equipment/">
               <span class="nav-tree__label">Equipment</span>
               <span class="nav-tree__marks"><span class="arw arw--right" aria-hidden="true">→</span></span>
             </a>
@@ -171,7 +171,7 @@
 
           <li class="nav-tree__group" data-branch>
             <div class="nav-tree__head">
-              <a class="nav-tree__route" href="/about/"  data-preview="/about/">
+              <a class="nav-tree__route" href="/about"  data-preview="/about/">
                 <span class="nav-tree__label">About</span>
               </a>
               
@@ -191,12 +191,12 @@
             <div class="nav-tree__reveal" id="nav-sub-3">
               <ul class="nav-tree__children">
                 
-                <li><a class="nav-tree__child" href="/about/"  data-preview="/about/">
+                <li><a class="nav-tree__child" href="/about"  data-preview="/about/">
                   <span class="nav-tree__label">The company</span>
                   <span class="nav-tree__marks"><span class="arw arw--right" aria-hidden="true">→</span></span>
                 </a></li>
 
-                <li><a class="nav-tree__child" href="/safety-quality/"  data-preview="/safety-quality/">
+                <li><a class="nav-tree__child" href="/safety-quality"  data-preview="/safety-quality/">
                   <span class="nav-tree__label">Safety &amp; quality</span>
                   <span class="nav-tree__marks"><span class="arw arw--right" aria-hidden="true">→</span></span>
                 </a></li>
@@ -205,7 +205,7 @@
           </li>
 
           <li class="nav-tree__group">
-            <a class="nav-tree__route" href="/contact/"  data-preview="/contact/">
+            <a class="nav-tree__route" href="/contact"  data-preview="/contact/">
               <span class="nav-tree__label">Contact</span>
               <span class="nav-tree__marks"><span class="arw arw--right" aria-hidden="true">→</span></span>
             </a>
@@ -221,7 +221,7 @@
       </div>
       <div class="nav-panel__block">
         <p class="nav-panel__label t-micro">Elsewhere</p>
-        <p><a class="nav-panel__aside-link" href="/legal/privacy/" >Privacy</a></p>
+        <p><a class="nav-panel__aside-link" href="/legal/privacy" >Privacy</a></p>
       </div>
     </div>
 
@@ -342,7 +342,7 @@
       </ul>
     </div>
     <div class="hero__actions" data-reveal>
-      <a class="btn" href="/projects/">The register<span class="btn__arrow"><span class="arw arw--right" aria-hidden="true">→</span></span></a>
+      <a class="btn" href="/projects">The register<span class="btn__arrow"><span class="arw arw--right" aria-hidden="true">→</span></span></a>
     </div>
     <h1 class="mega hero__mark" data-reveal><span class="t-mega t-mega--hero" style="--fit:3.6985">Jeftoni</span></h1>
   </div>
@@ -384,7 +384,7 @@
     <div class="pole__body">
       <h2 class="pole__statement" data-reveal>Marine &amp; Construction-Focused Engineering</h2>
       <p class="pole__lead" data-reveal>JEFTONI Nig. Ltd., incorporated in June 1993, has built up her activities with highly qualified and experienced staff comprising indigenous Engineers and Technicians, equipped adequately with modern Geotechnical and Foundation Engineering experience and equipment to carry out works efficiently to satisfy clients. We undertake design and construction of Geotechnical and Foundation structures, supplying hidden strength to bridges, buildings, jetties, and other marine structures etc.</p>
-      <p class="pole__action" data-reveal><a class="link" href="/about/">The company since 1993<span class="link__arrow"><span class="arw arw--right" aria-hidden="true">→</span></span></a></p>
+      <p class="pole__action" data-reveal><a class="link" href="/about">The company since 1993<span class="link__arrow"><span class="arw arw--right" aria-hidden="true">→</span></span></a></p>
     </div>
   </div>
 </section>
@@ -403,17 +403,17 @@
     <p class="photo-list__label t-micro" data-reveal>Capabilities</p>
     <ol class="photo-list__items" data-stagger="70">
       
-      <li data-reveal><a class="photo-list__item" href="/services/conductor-piling/" data-photo-key="conductor-piling">Conductor Piling</a></li>
+      <li data-reveal><a class="photo-list__item" href="/services/conductor-piling" data-photo-key="conductor-piling">Conductor Piling</a></li>
 
-      <li data-reveal><a class="photo-list__item" href="/services/piling-systems/" data-photo-key="piling-systems">Full Range of Piling Systems</a></li>
+      <li data-reveal><a class="photo-list__item" href="/services/piling-systems" data-photo-key="piling-systems">Full Range of Piling Systems</a></li>
 
-      <li data-reveal><a class="photo-list__item" href="/services/jetty-construction/" data-photo-key="jetty-construction">Jetty Construction &amp; Berthing Facilities</a></li>
+      <li data-reveal><a class="photo-list__item" href="/services/jetty-construction" data-photo-key="jetty-construction">Jetty Construction &amp; Berthing Facilities</a></li>
 
-      <li data-reveal><a class="photo-list__item" href="/services/bridge-construction/" data-photo-key="bridge-construction">Bridge Construction</a></li>
+      <li data-reveal><a class="photo-list__item" href="/services/bridge-construction" data-photo-key="bridge-construction">Bridge Construction</a></li>
 
-      <li data-reveal><a class="photo-list__item" href="/services/geotechnical-investigation/" data-photo-key="geotechnical-investigation">Soil &amp; Geotechnical Investigation</a></li>
+      <li data-reveal><a class="photo-list__item" href="/services/geotechnical-investigation" data-photo-key="geotechnical-investigation">Soil &amp; Geotechnical Investigation</a></li>
 
-      <li data-reveal><a class="photo-list__item" href="/services/steel-fabrication/" data-photo-key="steel-fabrication">Steel Fabrication</a></li>
+      <li data-reveal><a class="photo-list__item" href="/services/steel-fabrication" data-photo-key="steel-fabrication">Steel Fabrication</a></li>
     </ol>
   </div>
 </section>
@@ -474,7 +474,7 @@
         </div></li>
     </ol>
   </div>
-<div class="grid"><p class="col-content section__more" data-reveal><a class="link" href="/projects/">Open the full register<span class="link__arrow"><span class="arw arw--right" aria-hidden="true">→</span></span></a></p></div>
+<div class="grid"><p class="col-content section__more" data-reveal><a class="link" href="/projects">Open the full register<span class="link__arrow"><span class="arw arw--right" aria-hidden="true">→</span></span></a></p></div>
 </section>
 
 <section class="section">
@@ -720,7 +720,7 @@
   </div>
   <div class="grid strip__foot">
     <p class="strip__note col-text" data-reveal>Jeftoni owns and operates 80 units of heavy-duty equipment, and fabricates its own drilling augers, buckets and kelly bars in-house.</p>
-    <p class="strip__action" data-reveal><a class="link" href="/equipment/">What is in the yard<span class="link__arrow"><span class="arw arw--right" aria-hidden="true">→</span></span></a></p>
+    <p class="strip__action" data-reveal><a class="link" href="/equipment">What is in the yard<span class="link__arrow"><span class="arw arw--right" aria-hidden="true">→</span></span></a></p>
   </div>
 </section>
 
@@ -740,7 +740,7 @@
       <li class="logo-cell" data-reveal><img src="https://static.wixstatic.com/media/2b4064_ddb92f380a9a4038bc27e620afc385cb~mv2.jpg/v1/fill/w_192,h_192,al_c,q_90,enc_auto/file.jpg" width="96" height="96" alt="Nigerian National Petroleum Corporation" loading="lazy" decoding="async"></li>
     </ul>
   </div>
-<div class="grid"><p class="col-content section__more" data-reveal><a class="link" href="/clients/">Clients and sectors<span class="link__arrow"><span class="arw arw--right" aria-hidden="true">→</span></span></a></p></div>
+<div class="grid"><p class="col-content section__more" data-reveal><a class="link" href="/clients">Clients and sectors<span class="link__arrow"><span class="arw arw--right" aria-hidden="true">→</span></span></a></p></div>
 </section>
 
 <section class="section cta" data-surface="ink">
@@ -754,7 +754,7 @@
     <div class="col-content cta__body" data-reveal>
       <p class="t-lead cta__lead">Tell us what you need to build. For any inquiries or questions, call 0803 310 2434 or send us a message and we will get back to you shortly.</p>
       <div class="cta__actions">
-        <a class="btn" href="/contact/">Start an enquiry<span class="btn__arrow"><span class="arw arw--right" aria-hidden="true">→</span></span></a>
+        <a class="btn" href="/contact">Start an enquiry<span class="btn__arrow"><span class="arw arw--right" aria-hidden="true">→</span></span></a>
         <a class="btn btn--ghost" href="mailto:info@jeftoni.net">info@jeftoni.net<span class="btn__arrow"><span class="arw arw--right" aria-hidden="true">→</span></span></a>
       </div>
       <ul class="cta__phones t-micro">
@@ -792,23 +792,23 @@
     <div class="footer__col" data-reveal>
       <p class="footer__head t-micro">Site</p>
       
-      <p class="footer__item"><a class="footer__link" href="/services/">Services</a></p>
+      <p class="footer__item"><a class="footer__link" href="/services">Services</a></p>
 
-      <p class="footer__item"><a class="footer__link" href="/projects/">Projects</a></p>
+      <p class="footer__item"><a class="footer__link" href="/projects">Projects</a></p>
 
-      <p class="footer__item"><a class="footer__link" href="/equipment/">Equipment</a></p>
+      <p class="footer__item"><a class="footer__link" href="/equipment">Equipment</a></p>
 
-      <p class="footer__item"><a class="footer__link" href="/about/">About</a></p>
+      <p class="footer__item"><a class="footer__link" href="/about">About</a></p>
 
-      <p class="footer__item"><a class="footer__link" href="/contact/">Contact</a></p>
+      <p class="footer__item"><a class="footer__link" href="/contact">Contact</a></p>
 
-      <p class="footer__item"><a class="footer__link" href="/gallery/">Gallery</a></p>
+      <p class="footer__item"><a class="footer__link" href="/gallery">Gallery</a></p>
 
-      <p class="footer__item"><a class="footer__link" href="/clients/">Clients</a></p>
+      <p class="footer__item"><a class="footer__link" href="/clients">Clients</a></p>
 
-      <p class="footer__item"><a class="footer__link" href="/safety-quality/">Safety &amp; quality</a></p>
+      <p class="footer__item"><a class="footer__link" href="/safety-quality">Safety &amp; quality</a></p>
 
-      <p class="footer__item"><a class="footer__link" href="/legal/privacy/">Privacy</a></p>
+      <p class="footer__item"><a class="footer__link" href="/legal/privacy">Privacy</a></p>
     </div>
 
     <div class="footer__col" data-reveal>
@@ -817,7 +817,7 @@
       <p class="footer__item"><a class="footer__link t-num" href="tel:+2348033102434">0803 310 2434</a></p>
 <p class="footer__item"><a class="footer__link t-num" href="tel:+2348106295246">0810 629 5246</a></p>
       <p class="footer__item"><a class="footer__link" href="mailto:info@jeftoni.net">info@jeftoni.net</a></p>
-      <p class="footer__item"><a class="footer__link" href="/contact/">All locations <span class="link__arrow"><span class="arw arw--right" aria-hidden="true">→</span></span></a></p>
+      <p class="footer__item"><a class="footer__link" href="/contact">All locations <span class="link__arrow"><span class="arw arw--right" aria-hidden="true">→</span></span></a></p>
     </div>
 
     <div class="footer__bottom t-micro" data-reveal>
