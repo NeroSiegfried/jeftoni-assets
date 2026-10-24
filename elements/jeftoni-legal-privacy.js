@@ -350,7 +350,7 @@
       
       <h2 class="t-h3">What this site collects</h2>
       <p>The enquiry form on the contact page asks for three things: email, subject, your message. Nothing else on this website asks you for information, and there is no account, login or newsletter.</p>
-<p>The site loads photographs from the Wix content delivery network. The contact page also embeds a Google map. Those requests carry your IP address and browser details to the relevant provider in the normal course of loading a web page. The site fonts are hosted with the website itself.</p>
+<p>The site loads photographs from the Wix content delivery network, and its fonts, stylesheets and scripts from GitHub Pages. The contact page also embeds a Google map. Those requests carry your IP address and browser details to the relevant provider in the normal course of loading a web page.</p>
 
       <h2 class="t-h3">How it is used</h2>
       <p>Anything you send through the enquiry form is used to answer your enquiry. It is not sold, and it is not used for advertising.</p>
