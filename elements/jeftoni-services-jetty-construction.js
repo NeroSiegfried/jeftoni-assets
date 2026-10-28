@@ -594,6 +594,29 @@
     return Promise.all(waits);
   }
 
+  // Wix's classic editor serves every phone a fixed width=320 viewport and
+  // pins the wrappers around this element to 320px, so the design's own
+  // breakpoints never run and the 320px layout is magnified to fit the screen.
+  // On phones, restore the device width and release those fixed widths. Only
+  // phones: tablets get Wix's width=980 desktop layout, where restoring the
+  // device width leaves the fixed navigation measuring the old 980px window.
+  function useDeviceWidth(el) {
+    var meta = document.querySelector('meta[name="viewport"]');
+    if (!meta || !/width=320\b/.test(meta.content)) return;
+    var fit = 'width=device-width, initial-scale=1';
+    var corrections = 0;
+    meta.content = fit;
+    // Put it back if Wix's runtime rewrites it, but never fight indefinitely.
+    new MutationObserver(function () {
+      if (meta.content !== fit && corrections++ < 20) meta.content = fit;
+    }).observe(meta, { attributes: true, attributeFilter: ['content'] });
+    for (var node = el; node && node !== document.documentElement; node = node.parentElement) {
+      node.style.setProperty('width', '100%', 'important');
+      node.style.setProperty('min-width', '0', 'important');
+      node.style.setProperty('max-width', 'none', 'important');
+    }
+  }
+
   class JeftoniPage extends HTMLElement {
     connectedCallback() {
       // A custom element can be upgraded more than once if Wix moves it in the
@@ -628,6 +651,9 @@
           el.parentElement.style.height = 'auto';
           el.parentElement.style.margin = '0';
         }
+
+        // Not in the editor or Preview, which render elements in a frame.
+        if (window.self === window.top) useDeviceWidth(el);
         el.innerHTML = MARKUP;
 
         // The behaviour script ran against the empty Wix shell long before
